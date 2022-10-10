@@ -1,6 +1,6 @@
 #  Image Object Relation Classification
 
-CE7454 Project: DEEP LEARNING FOR DATA SCIENCE
+NTU CE7454 Project: DEEP LEARNING FOR DATA SCIENCE
 
 ## Challenge Description
 
@@ -12,6 +12,10 @@ To be more specific, when the model sees the photo above, rather than providing 
 
 ![relations](relations.jpeg)
 
-## Data
+## Dataset
 
-4500 training data, 500 validation data, and 500 test data. All the images and panoptic segmentation are from COCO dataset. 
+4500 training data, 500 validation data, and 500 test data. All the images and panoptic segmentation are from COCO dataset. Label imbalance is severe in datasets as below.
+
+![](relation_hist_train.png)
+![](relation_hist_train.png)
+
