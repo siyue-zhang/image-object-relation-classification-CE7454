@@ -27,7 +27,8 @@ Label Frequency in Train Set    |  Label Frequency in Val Set
 * The optimization and regularization techniques were applied for each model to improve the mean recall performance. The most effective measures included image augmentation, data whitening, learning rate adjustment, increasing binary cross-entropy loss weight for infrequent classes, and multiplying infrequent class prediction probabilities (i.e., reducing probability threshold). 
 * The model was re-trained in the union of training and validation datasets before being submitted to the testing dataset. 
 * **Multi-task** learning was implemented to leverage the semantic segmentation task to improve classification performance. 
-* **Zero-shot** models were also proposed and explored to utilize the knowledge encapsulated in CLIP and Detectron2. Prompt engineering was performed for the relation classification. My optimized model is based on Swin Transformer at a test mean recall of 32.4%.
-
+![](seg.png)
+* **Zero-shot** models were also proposed and explored to utilize the knowledge encapsulated in CLIP and Detectron2. Prompt engineering was performed for the relation classification. 
+* My optimized model is based on Swin Transformer at a test mean recall of 32.4%.
 ![](tune.png)
 
