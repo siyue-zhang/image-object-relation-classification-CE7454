@@ -16,6 +16,8 @@ To be more specific, when the model sees the photo above, rather than providing 
 
 4500 training data, 500 validation data, and 500 test data. All the images and panoptic segmentation are from COCO dataset. Label imbalance is severe in datasets as below.
 
-![](relation_hist_train.png)
-![](relation_hist_train.png)
+Label Frequency in Train Set    |  Label Frequency in Val Set
+:-------------------------:|:-------------------------:
+![](relation_hist_train.png)  |  ![](relation_hist_val.png)
+
 
