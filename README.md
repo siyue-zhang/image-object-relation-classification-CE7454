@@ -12,6 +12,9 @@ To be more specific, when the model sees the photo above, rather than providing 
 
 ![relations](relations.jpeg)
 
+Mean Recall (mR) is the main metric to evaluate the model performance. It measures the mean of recall vlues of 50 classes in the test dataset.
+
+
 ## Dataset
 
 4500 training data, 500 validation data, and 500 test data. All the images and panoptic segmentation are from COCO dataset. Label imbalance is severe in datasets as below. To tackle the imbalance, images with frequent classes were under-sampled and images with infrequent classes were over-sampled.
@@ -19,8 +22,6 @@ To be more specific, when the model sees the photo above, rather than providing 
 Label Frequency in Train Set    |  Label Frequency in Val Set
 :-------------------------:|:-------------------------:
 ![](relation_hist_train.png)  |  ![](relation_hist_val.png)
-
-Mean Recall (mR) is the main target metric to evaluate the model in this project. It measures the mean of recall vlues of 50 classes in the test dataset.
 
 ## Work Conducted
 
