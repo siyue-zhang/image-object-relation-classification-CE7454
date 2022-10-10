@@ -29,5 +29,5 @@ Label Frequency in Train Set    |  Label Frequency in Val Set
 * **Multi-task** learning was implemented to leverage the semantic segmentation task to improve classification performance. 
 * **zero-shot** models were also proposed and explored to utilize the knowledge encapsulated in CLIP and Detectron2. Prompt engineering was performed for the relation classification. My optimized model is based on Swin Transformer at a test mean recall of 32.4%.
 
-
+![](tune.pdf)
 
