@@ -20,6 +20,8 @@ Label Frequency in Train Set    |  Label Frequency in Val Set
 :-------------------------:|:-------------------------:
 ![](relation_hist_train.png)  |  ![](relation_hist_val.png)
 
+Mean Recall (mR) is the main target metric to evaluate the model in this project. It measures the mean of recall vlues of 50 classes in the test dataset.
+
 ## Work Conducted
 
 * An exploratory data analysis was first conducted to understand the relation class distribution. 
