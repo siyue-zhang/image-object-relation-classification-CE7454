@@ -12,7 +12,7 @@ To be more specific, when the model sees the photo above, rather than providing 
 
 ![relations](relations.jpeg)
 
-Mean Recall (mR) is the main metric to evaluate the model performance. It measures the mean of recall vlues of 50 classes in the test dataset.
+Mean Recall (mR) is the main metric to evaluate the performance. It measures the mean of recall vlues of 50 classes in the test dataset.
 
 
 ## Dataset
