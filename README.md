@@ -31,7 +31,7 @@ Label Frequency in Train Set    |  Label Frequency in Val Set
 * The model was re-trained in the union of training and validation datasets before being submitted to the testing dataset. 
 * **Multi-task** learning was implemented to leverage the semantic segmentation task to improve classification performance. 
 ![](seg.png)
-* **Zero-shot** models were also proposed and explored to utilize the knowledge encapsulated in CLIP and Detectron2. Prompt engineering was performed for the relation classification.
+* **Zero-shot** models were also proposed and explored to utilize the knowledge encapsulated in CLIP and Detectron2. Prompt engineering was performed for the relation classification. While the validation mR is 34.2%, the test mR drops to 28.7%. 
 ![](det.png)
 * My optimized model is based on Swin Transformer at a test mean recall of 32.4%.
 ![](tune.png)
